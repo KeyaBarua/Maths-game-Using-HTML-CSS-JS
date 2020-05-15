@@ -1,6 +1,10 @@
 html{
   height: 100%;
   background: radial-gradient(circle, #ffffff, #cccccc);
+  -webkit-background: radial-gradient(circle, #ffffff, #cccccc);
+  -o-background: radial-gradient(circle, #ffffff, #cccccc);
+  -moz-background: radial-gradient(circle, #ffffff, #cccccc);
+
 }
 
 #container{
@@ -19,8 +23,6 @@ html{
 }
 
 #score{
-  height: 20px;
-  width: 60px;
   background-color: rgb(242, 213, 67);
   color: #0023ef;
   font-weight: bold;
@@ -160,6 +162,9 @@ html{
   width: 550px;
   height: 250px;
   background: linear-gradient(#ed7d07,#e8cd02);
+  -webkit-background: linear-gradient(#ed7d07,#e8cd02);
+  -moz-background: linear-gradient(#ed7d07,#e8cd02);
+  -o-background: linear-gradient(#ed7d07,#e8cd02);
   color: white;
   font-size: 50px;
   text-align: center;
